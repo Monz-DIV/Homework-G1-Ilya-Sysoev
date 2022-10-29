@@ -1,78 +1,118 @@
 h1{
-color: #203F6D;
-font-size: 30px;
-text-align: center;
-
-
-}
-
-
-h3 {
-color: #4B3208;
-font-size: 20px;
-margin-top: 90px;
-text-align: center;
-}
-
-
-h4 {
-color: #4B3208;
-font-size: 16px;
-margin-top: 30px;
-}
-
-
-p {
-color: #4B3208;
-font-size: 16px;
-
-}
-
-
-.text{
-border-radius: 80px;
-background-color: #E8E8E8;
-margin-left: 20px;
-margin-right: 20px;
-border: 8px solid #2A3D3D;
-padding: 2px;
-box-shadow: 33px 33px 47px #AA6F00;
-opacity: 0.6;
-}
-
-
-.text:hover {
-opacity: 0.9;
-}
-
-
-
-
-.list {
-color: #AA6F00;
-font-size: 20px;
-}
-
-#link1 {
-color: #AA6F00;
-font-size: 16px;
-}
-
-
-
-.foto {
-display:block;
-margin:auto;
-opacity: 0.5;
-border-radius: 30px;
-transition: 1s; 
-box-shadow: 23px 23px 57px #AA6F00;
+   color: #203F6D;
+   font-size: 30px;
+   text-align: center;
+   
+   
    }
    
    
-   .foto:hover {
-    transform: scale(2); 
-    opacity: 1;
+   h3 {
+   color: #4B3208;
+   font-size: 20px;
+   margin-top: 90px;
+   text-align: center;
    }
-
-
+   
+   
+   h4 {
+   color: #4B3208;
+   font-size: 16px;
+   margin-top: 30px;
+   }
+   
+   
+   p {
+   color: #4B3208;
+   font-size: 18px;
+   
+   }
+   
+   
+   .text{
+   border-radius: 80px;
+   background-color: #E8E8E8;
+   margin-left: 20px;
+   margin-right: 20px;
+   border: 8px solid #2A3D3D;
+   padding: 2px;
+   box-shadow: 33px 33px 47px #AA6F00;
+   opacity: 0.6;
+   }
+   
+   
+   .text:hover {
+   opacity: 0.9;
+   }
+   
+   
+   
+   
+   .list {
+   color: #AA6F00;
+   font-size: 20px;
+   }
+   
+   #link1 {
+   color: #AA6F00;
+   font-size: 16px;
+   }
+   
+   
+   
+   .foto {
+   display:block;
+   margin:auto;
+   opacity: 0.5;
+   border-radius: 30px;
+   transition: 1s; 
+   box-shadow: 23px 23px 57px #AA6F00;
+      }
+      
+      
+      .foto:hover {
+       transform: scale(2); 
+       opacity: 1;
+      }
+   
+   
+   
+   .conteiner-1 {
+   display: flex;
+   flex-direction: row-reverse;
+   background-color: rgba(177, 116, 13, 0.321);
+   
+   }
+   
+   .conteiner-1 div {
+   padding: 30px;
+   border: 1px solid #563600;
+   margin: 30px;
+   background-color: rgba(177, 116, 13, 0.321);
+   box-shadow: 23px 23px 47px #AA6F00;
+   opacity: 0.9;
+   transition: 0.5s; 
+   }
+   
+      .conteiner-1 div:hover {
+       transform: scale(1.1); 
+       opacity: 1;
+      }
+   
+   
+   
+   .Homework1{
+   flex:1
+   }
+   
+   .Homework2{
+   flex:1
+   }
+   
+   .Homework3{
+   flex:1.5
+   }
+   
+   .Homework4{
+   flex:1.5
+   }
