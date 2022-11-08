@@ -54,7 +54,7 @@ h2{
 .inner-content-1 {
    
     width: 32%;
-   display: flex
+   display: flex;
    justify-content: space-between;
    
 }
