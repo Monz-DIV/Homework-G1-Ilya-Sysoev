@@ -1,0 +1,141 @@
+
+
+body{
+    background:  rgba(255, 255, 255, 0.633);
+    color:aliceblue;   
+}
+
+
+
+.header{
+    margin-bottom: 5px;
+}
+
+
+
+.inner-header{
+    background: linear-gradient(45deg, #EECFBA, #C5DDE8) rgb(234, 182, 24);
+    height: 50px;
+    text-align: center; 
+    margin-top: 15px; 
+    border-radius: 400px 400px 50px 50px;
+    border: 2px solid black;
+}
+
+
+h2{
+    color: rgb(4, 4, 4);
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+
+.content{
+    text-align: center; 
+    margin-top: 30px;
+}
+
+
+
+
+.inner-content{
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+
+.button-content{
+margin-top: 20px;   
+justify-content: center;
+align-items: center;
+align-content: center;
+}
+
+
+button {
+    font-style: italic;
+    text-transform: uppercase;
+    margin: auto;
+    background: linear-gradient(45deg, #9f7e68, #5190ad) rgb(234, 182, 24);
+    border-radius: 50px 0px 50px 0px;
+    width: 50%; 
+    min-width: 150px;
+}
+
+
+button:hover {
+    background: none;
+    width: 70%; 
+    animation: bounce 1s;
+}
+
+
+form {
+    margin: 0px;
+}
+
+
+.inner-content-1 {
+   width: 32%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.inner-text {
+    margin-top: 40px;
+    font-size: 16px;
+    width: 95%;
+    color: rgb(94, 92, 92);
+   text-align: left;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .inner-content {
+       flex-direction: column;
+       align-items: center;
+    }
+        
+        
+    
+    .inner-content-1 {
+        width: 70%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .inner-text {  
+    width: 80%;
+    font-size: 14px;
+    }
+
+}
+
+
+@media screen and (max-width: 350px) {
+    .header{
+        display: none;
+     }
+}
+
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
