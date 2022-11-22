@@ -1,17 +1,63 @@
-const Name="Илья";
-const Surname="Сысоев";
-const Citi="Смоленск";
-const Citi2="Москва";
-const Birthday=new Date(1989, 7, 13);
-let BirYear="1989";
-let now = new Date(); 
-let today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
-let age;
-age = today.getFullYear() - Birthday.getFullYear();
-let CompanyDate= new Date(2014, 11, 21);
-let ageCompany;
-ageCompany=today.getFullYear() - CompanyDate.getFullYear();
+let rise={
+    weight: 1000,
+    price: 200,
+    calories: 1500,
+}
+let mutton={
+    weight: 300,
+    price: 700,
+    calories: 2900,
+}
 
-let strMySelf = `Привет, меня зовут ${Name+" "+ Surname} и в ${BirYear} году я родился в городе ${Citi}, а это значит, что мне уже целых ${age} года. Сейчас я живу в городе ${Citi2}.
-У меня c партнером есть свой не большой бизнес. Мы  уже целых  ${ageCompany} лет строим офисы и делаем этот мир немного лучше и красивее. `
-console.log (strMySelf);
+let meat={
+    weight: 500,
+    price: 550,
+    calories: 2900,
+}
+
+let vegetables={
+    weight: 1500,
+    price: 300,
+    calories: 2900,
+}
+
+let dough={
+    weight: 300,
+    price: 200,
+    calories: 2000,
+}
+
+let onion={
+    weight: 400,
+    price: 90,
+    calories: 200,
+}
+
+
+
+let plov=['rise', 'meat', 'vegetables'];
+let pozy=['dough','mutton', 'meat', 'onion'];
+let pizza=['dough','meat', 'onion','vegetables' ];
+
+let food=['plov', 'pozy', 'pizza'];
+
+food.splice (1, 1); // Удалили из массива обьект позы, со смещением позиции пица на место позы.
+
+pozy.splice (1, 1); // Удалили из состава поз баранину.
+
+
+
+food.unshift ('pozy');
+
+
+let pricePlov=(rise.price+meat.price+vegetables.price);
+let pricePozy=(dough.price+mutton.price+meat.price+onion.price);
+let pricePizza=(dough.price+meat.price+onion.price+vegetables.price);
+
+let foodPrice=(pricePlov+pricePozy+pricePizza);
+
+n=food.length; // Вводим переменную n- значение которой заввисит от количества блюд.
+food.splice(1,n); // Удаляем все блюда из меню кроме первого.
+
+
+alert(food);
