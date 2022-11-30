@@ -1,0 +1,44 @@
+body{
+    background:  radial-gradient(farthest-corner at 50% 50%, white, #86bbe3);
+}
+
+table {
+    border-collapse: collapse; 
+    font-family:Arial, Helvetica, sans-serif;
+    background:  radial-gradient(farthest-corner at 50% 50%, white, #DCECF8);
+    border: 2px solid grey;
+    width: 100%;
+    margin-top: 100px;
+    
+}
+
+caption{
+    font-family: annabelle, cursive;
+    font-weight: bold;
+    font-size: 2em;
+    padding: 10px; 
+    text-shadow: 1px 1px 0 rgba(20, 59, 166, 0.3);
+
+}
+
+th {
+    padding: 10px;
+    border: 2px solid grey;
+
+}
+
+tr {
+    border: 2px solid grey;
+}
+
+
+td {
+    border: 2px solid grey;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px 7px;
+}
+
+.itog {
+    text-align: right;
+}
