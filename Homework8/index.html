@@ -1,7 +1,75 @@
 <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
     <script src="script.js"> </script>
 </head>
 <body>
+    <table id="menu">
+        <caption>Меню</caption>
+        <tr class="item">
+                <th width="5%">№</th>
+                <th width="40%">Блюдо</th>
+                <th width="30%%">Состав</th>
+                <th width="10%">Вес</th>
+                <th width="10%">Цена, руб.</th>
+                <th width="5%">Количество</th>
+               
+        </tr>
+        <tr class="item">
+            <td>1</td>
+            <td>Пицца</td>
+            <td>Тесто, салями, перец, бекон, лук, сыр</td>
+            <td>500гр</td>
+            <td class="price" value="500"> 500 </td>
+            <td> <p><input type="text" id="pizza" ></p></td>
+                
+            </td>
+            
+           
+        </tr >
+        <tr class="item">
+            <td>2</td>
+            <td> Позы</td>
+            <td>Тесто,баранина, лук</td>
+            <td>300гр</td>
+            <td class="price" value="600">600</td>
+            <td> <p><input type="text" id="Pozy"  ></p></td>
+         
+        </tr>
+        
+        <tr class="item">
+            <td>3</td>
+            <td>Плов</td>
+            <td>рис, морковь, лук, баранина</td>
+            <td>400гр</td>
+            <td class="price" value="350">350</td>
+            <td> <p><input type="text" id="Plov"  ></p></td>
+        </tr>
+        <tr class="item">
+            <td>4</td>
+            <td>чай</td>
+            <td>черный чай</td>
+            <td>200гр</td>
+            <td class="price" value="100">100</td>
+            <td> <p><input type="text" id="Tea"  ></p></td>
+        </tr>
+        <tr class="item">
+            <td>5</td>
+            <td>десерт</td>
+            <td>на выбор</td>
+            <td>250гр</td>
+            <td class="price" value="250">250</td>
+            <td> <p><input type="text" id="Desert" > </p></td>
+        </tr>
+        <tr class="item">
+            <td class="itog" colspan="5" > 
+                <input type="button" value="ИТОГ" onclick="printItog()"> </td>
+                <td> <p><input type="text" id="Itog" > </p></td>
+               
+           
+        </tr>
+    </table> 
     
 </body>
+
+
